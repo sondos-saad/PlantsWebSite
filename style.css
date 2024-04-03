@@ -179,6 +179,7 @@ ul {
 .home_data .home_description{
    font-size: 1.3rem;
    margin-bottom: 3rem;
+   color: #b1aeae;
 }
 .home_buttons{
     display: flex;
@@ -285,6 +286,7 @@ ul {
 }
 .new_description{
     font-size: 1.2rem;
+    color: #b1aeae;
 }
 .new_content{
     width: 45%;
@@ -444,6 +446,7 @@ ul {
 }
 .care_item p{
     font-size: 20px;
+    color: #b1aeae;
 }
 @media screen and (max-width:550px){
     .care_container{
@@ -509,6 +512,7 @@ footer{
 .footer_description{
     margin-top: 2rem;
     font-size: 20px;
+    color: #b1aeae;
 }
 .footer_content{
     display: grid;
@@ -525,7 +529,7 @@ footer{
 .footer_link{
     display:block;
    margin-bottom: 1rem;
-   color: white;
+   color: #b1aeae;
    transition: color .4s;
 }
 .footer_link:hover{
@@ -534,8 +538,12 @@ footer{
 .footer_social_link{
     display: inline-block;
    margin-left: 1rem;
-   color:var(--text-color);
+   color: #b1aeae;
    font-size: 20px;
+   transition: color .4s;
+}
+.footer_social_link:hover{
+    color: var(--green-color);
 }
 .footer_copy{
     display: block;
