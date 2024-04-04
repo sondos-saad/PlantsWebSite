@@ -576,3 +576,15 @@ footer{
         text-align: center;
      }
 }
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: .6rem;
+    background-color: hsl(228, 4%, 15%);
+}
+::-webkit-scrollbar-thumb{
+    background-color: hsl(228, 4%, 25%);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(228, 4%, 35%);
+}
